@@ -18,3 +18,6 @@ def test_two_sum():
     assert two_sum(nums, target) == [0, 1], "Test case 3 failed"
 
     print("All test cases passed!")
+
+
+test_two_sum()
