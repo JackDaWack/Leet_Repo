@@ -5,22 +5,22 @@ class ListNode:
         self.next = next
 
 #Non-Ai implementation of solution.
+def ln2int(ln:ListNode) -> int:
+    result = 0
+    place = 0
+    while ln.next is not None:
+        result += ln.val * (10 ** place)
+        ln = ln.next
+        place += 1
+    return result
+
 def add_two_numbers(l1:ListNode, l2: ListNode) -> ListNode:
-    num1 = 0
-    place = 0
-    while l1.next is not None:
-        num1 += l1.val * (10 ** place)
-        l1 = l1.next
-        place += 1
-    place = 0
-    num2 = 0
-    while l2.next is not None:
-        num2 += l2.val * (10 ** place)
-        l2 = l2.next
-        place += 1
+    num1 = ln2int(l1)
+    num2 = ln2int(l2)
     sum = num1 + num2
     solution = ListNode(0)
     curr = solution
+    place = 0
     while sum > 0:
         curr.val = sum % (10 ** place)
         sum = sum / (10 ** place)

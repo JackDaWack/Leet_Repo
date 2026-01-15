@@ -6,6 +6,8 @@
 - Consolidated two-sum implementations into a single directory.
 - Used Copilot to implement tester file.
 - Began C++ implementation of adding two numbers.
+- Implemented helper function in python implementation.
+- Modified add_two_numbers python implementation to utilize helper.
 
 ### 1/11/2026
 - Created leet-code repo.
