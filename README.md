@@ -1,5 +1,8 @@
 # Leet_Repo
 
+### 1/14/2026
+- Used Copilot to implement tester.rs.
+
 ### 1/11/2026
 - Created leet-code repo.
 - Worked on implementation of two-sum leet code problem.
