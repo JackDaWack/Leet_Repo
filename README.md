@@ -5,6 +5,7 @@
 - Began Python implementation of adding two numbers problem.
 - Consolidated two-sum implementations into a single directory.
 - Used Copilot to implement tester file.
+- Began C++ implementation of adding two numbers.
 
 ### 1/11/2026
 - Created leet-code repo.
