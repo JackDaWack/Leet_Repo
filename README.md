@@ -2,6 +2,7 @@
 
 ### 1/14/2026
 - Used Copilot to implement tester.rs.
+- Began Python implementation of adding two numbers problem.
 
 ### 1/11/2026
 - Created leet-code repo.
