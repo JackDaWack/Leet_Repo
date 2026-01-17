@@ -7,6 +7,7 @@
 - Finished cpp implementation of solution.
 - Used Copilot to generate test code in cpp tester file.
 - Consolidated solutions under Adding_Two_Numbers folder.
+- Created new folder and file for Longest Substring Without Repeating Characters problem.
 
 ### 1/14/2026
 - Used Copilot to implement tester.rs.
