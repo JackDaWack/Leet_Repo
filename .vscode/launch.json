@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/Code/Leet_Repo/Add_Two_numbers_cpp",
-      "program": "d:/Code/Leet_Repo/Add_Two_numbers_cpp/build/Debug/outDebug",
+      "cwd": "d:/Code/Leet_Repo/Add_Two_Numbers/Add_Two_Numbers_cpp",
+      "program": "d:/Code/Leet_Repo/Add_Two_Numbers/Add_Two_Numbers_cpp/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

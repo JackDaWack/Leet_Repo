@@ -6,6 +6,7 @@
 - Began cpp solution of adding two numbers, aiming to follow logic in py implementation.
 - Finished cpp implementation of solution.
 - Used Copilot to generate test code in cpp tester file.
+- Consolidated solutions under Adding_Two_Numbers folder.
 
 ### 1/14/2026
 - Used Copilot to implement tester.rs.
