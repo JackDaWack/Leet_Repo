@@ -4,6 +4,8 @@
 - Continued and modified python implementation of adding two numbers.
 - Finished python implementation with successful testing and added explanatory comments. 
 - Began cpp solution of adding two numbers, aiming to follow logic in py implementation.
+- Finished cpp implementation of solution.
+- Used Copilot to generate test code in cpp tester file.
 
 ### 1/14/2026
 - Used Copilot to implement tester.rs.

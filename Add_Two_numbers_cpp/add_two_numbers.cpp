@@ -25,6 +25,15 @@ ListNode* add_two_numbers(ListNode* l1, ListNode* l2) {
     int sum = ln2int(l1) + ln2int(l2);
     ListNode* solution = new ListNode(0);
     ListNode* curr = solution;
-    
+    while (sum > 0){
+        curr->val = sum % 10;
+        sum = sum / 10;
+        curr->next = new ListNode(0);
+        curr = curr->next;
+        if (sum < 10){
+            curr->val = sum;
+            sum = 0;
+        }
+    }
     return solution;
 }
