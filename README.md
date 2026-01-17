@@ -1,5 +1,8 @@
 # Leet_Repo
 
+### 1/17/2026
+- Continued and modified python implementation of adding two numbers.
+
 ### 1/14/2026
 - Used Copilot to implement tester.rs.
 - Began Python implementation of adding two numbers problem.

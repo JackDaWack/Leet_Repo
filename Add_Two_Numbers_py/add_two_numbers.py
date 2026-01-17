@@ -23,6 +23,10 @@ def add_two_numbers(l1:ListNode, l2: ListNode) -> ListNode:
     place = 0
     while sum > 0:
         curr.val = sum % (10 ** place)
-        sum = sum / (10 ** place)
-        place -= 1
+        if sum < 10:
+            sum = sum / (10 ** place)
+            place += 1
+            curr = curr.next
+        else:
+            break
     return solution
